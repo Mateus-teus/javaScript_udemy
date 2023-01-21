@@ -32,4 +32,4 @@ let meuContador2 = contador(1);
 meuContador2()
 meuContador2()
 meuContador2()
-meuContador2()
+ meuContador2()
