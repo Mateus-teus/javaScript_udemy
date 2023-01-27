@@ -1,12 +1,11 @@
-function num(n){}
-    while (n >=0){
-    n--
-   if(n % 2== 1){
-    continue;
-   }
-
-   n = n
-   
+function num(n){
+    for(let i = n; i >= 0; i--){
+        if(i % 2 == 0){
+            console.log(i);
+        }
+    }
 }
 
-console.log(num(25))
+num(20);
+num(12);
+num(88);
